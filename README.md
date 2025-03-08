@@ -1,40 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Data Viewer Application
+
+This is a Next.js-based data visualization application that allows users to upload, view, and analyze data files in various formats.
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Features and Implementation Highlights
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. **Robust File Handling**
+   - Support for multiple file formats (CSV, Excel)
+   - Efficient file parsing and validation
+   - Secure file upload handling
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+2. **Interactive Data Visualization**
+   - Dynamic chart generation using Chart.js
+   - Multiple visualization options (line charts, bar charts)
+   - Responsive design for optimal viewing on different devices
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Modern Tech Stack**
+   - Next.js for server-side rendering and optimal performance
+   - React for component-based UI development
+   - Material UI for , responsive styling
+   - AG Grid for powerful data grid functionality
 
-## Learn More
+## Future Improvements (With 4 More Hours)
 
-To learn more about Next.js, take a look at the following resources:
+1. **Enhanced Data Analysis**
+   - Implement statistical analysis tools
+   - Add data filtering and sorting capabilities
+   - Include data export functionality in multiple formats
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+2. **User Experience**
+   - Add drag-and-drop file upload
+   - Implement real-time data preview
+   - Add more interactive chart customization options
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Testing and Documentation**
+   - Add comprehensive unit tests
+   - Implement end-to-end testing
+   - Enhance API documentation
 
-## Deploy on Vercel
+4. **Performance Optimization**
+   - Implement data pagination for large datasets
+   - Add caching for frequently accessed data
+   - Optimize chart rendering for large datasets
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Testing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+To run the test suite:
+
+```bash
+npm test
+# or
+yarn test
+```
+
+## Challenge Feedback
+
+The challenge effectively tests full-stack development skills and understanding of modern web technologies. Potential improvements could include:
+
+1. Adding specific performance requirements or benchmarks
+2. Including accessibility requirements
+3. Providing sample datasets for consistent evaluation
