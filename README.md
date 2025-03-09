@@ -21,7 +21,8 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
-
+login : admin@example.com
+password : Shal@123
 ## Features and Implementation Highlights
 
 1. **Robust File Handling**
