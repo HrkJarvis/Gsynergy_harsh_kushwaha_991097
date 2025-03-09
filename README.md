@@ -40,7 +40,7 @@ password : Shal@123
    - React for component-based UI development
    - Material UI for , responsive styling
    - AG Grid for powerful data grid functionality
-
+4. **Use jwt Authentication for session management**
 ## Future Improvements (With 4 More Hours)
 
 1. **Enhanced Data Analysis**
